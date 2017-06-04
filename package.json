@@ -1,0 +1,63 @@
+{
+  "name": "react-promise-cancelable",
+  "version": "1.0.0",
+  "description": "React Higher-Order Component to handle promise cancelation when the component unmounts",
+  "browser": "dist/react-promise-cancelable.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "jsnext:main": "es/index.js",
+  "repository": "git@github.com:joaogranado/react-promise-cancelable.git",
+  "author": "João Granado <joao.mota.garcia@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "lib",
+    "src",
+    "es"
+  ],
+  "scripts": {
+    "bundle-commonjs": "BABEL_ENV=commonjs babel src --out-dir lib",
+    "bundle-es": "BABEL_ENV=es babel src --out-dir es",
+    "bundle-umd-min": "BABEL_ENV=es NODE_ENV=production rollup -c -i src/index.js -o dist/react-promise-cancelable.min.js",
+    "bundle-umd": "BABEL_ENV=es NODE_ENV=development rollup -c -i src/index.js -o dist/react-promise-cancelable.js",
+    "bundle": "npm run bundle-commonjs && npm run bundle-es && npm run bundle-umd-min && npm run bundle-umd",
+    "clear": "rimraf lib es dist coverage",
+    "prepublish": "npm clear && npm bundle",
+    "test": "jest --env=jsdom",
+    "test-watch": "npm test -- --watch"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-jsx-self": "^6.22.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.8.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^20.0.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "peerDependencies": {
+    "promise-cancelable": "^1.0.1",
+    "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "lodash-es": "^4.17.4"
+  }
+}
