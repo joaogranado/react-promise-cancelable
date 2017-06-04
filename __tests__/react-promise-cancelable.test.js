@@ -3,7 +3,7 @@
  */
 
 import { mount } from 'enzyme';
-import React, { Component } from 'react';
+import React from 'react';
 import cancelable from '../src';
 
 describe('cancelable', () => {
