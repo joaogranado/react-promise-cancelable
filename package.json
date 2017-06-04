@@ -22,7 +22,7 @@
     "bundle-umd": "BABEL_ENV=es NODE_ENV=development rollup -c -i src/index.js -o dist/react-promise-cancelable.js",
     "bundle": "npm run bundle-commonjs && npm run bundle-es && npm run bundle-umd-min && npm run bundle-umd",
     "clear": "rimraf lib es dist coverage",
-    "prepublish": "npm clear && npm bundle",
+    "prepublish": "npm run clear && npm run bundle",
     "test": "jest --env=jsdom",
     "test-watch": "npm test -- --watch"
   },
