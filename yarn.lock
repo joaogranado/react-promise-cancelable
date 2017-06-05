@@ -2977,9 +2977,9 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-promise-cancelable@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/promise-cancelable/-/promise-cancelable-1.0.1.tgz#d2a69bcda60c6a5a7961261219a699e54f5a8546"
+promise-cancelable@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/promise-cancelable/-/promise-cancelable-1.1.0.tgz#e7557c9a5d4e04a908e9f533ce71a8f212ea89d4"
 
 promise@^7.1.1:
   version "7.1.1"
@@ -3302,9 +3302,9 @@ rollup-pluginutils@^2.0.1:
     estree-walker "^0.3.0"
     micromatch "^2.3.11"
 
-rollup@^0.41.6:
-  version "0.41.6"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.41.6.tgz#e0d05497877a398c104d816d2733a718a7a94e2a"
+rollup@^0.42.0:
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.42.0.tgz#56e791b3a2f3dd7190bbb80a375675f2fe0f9b23"
   dependencies:
     source-map-support "^0.4.0"
 
