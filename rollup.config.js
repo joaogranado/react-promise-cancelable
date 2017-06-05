@@ -3,6 +3,7 @@
  */
 
 const babel = require('rollup-plugin-babel');
+const commonjs = require('rollup-plugin-commonjs');
 const replace = require('rollup-plugin-replace');
 const resolve = require('rollup-plugin-node-resolve');
 const uglify = require('rollup-plugin-uglify');
@@ -18,14 +19,14 @@ const config = {
     babel({
       exclude: 'node_modules/**'
     }),
-    resolve({ jsnext: true }),
+    resolve(),
+    commonjs(),
     replace({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     })
   ],
-  external: ['react', 'prop-types'],
+  external: ['react'],
   globals: {
-    'prop-types': 'PropTypes',
     react: 'React'
   }
 };

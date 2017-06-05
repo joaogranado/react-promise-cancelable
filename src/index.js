@@ -3,7 +3,7 @@
  */
 
 import Cancelable from 'promise-cancelable';
-import isPlainObject from 'lodash/isPlainObject';
+import isPlainObject from 'is-plain-object';
 import React, { Component } from 'react';
 
 /**
