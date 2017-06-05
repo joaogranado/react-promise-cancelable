@@ -9,7 +9,7 @@
       ]
     },
     "es": {
-      "plugins": ["transform-class-properties", "./scripts/lodash-es"],
+      "plugins": ["transform-class-properties"],
       "presets": [
         ["env", {
           "modules": false,
