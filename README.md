@@ -1,12 +1,14 @@
 
 # React Promise Cancelable
+
 > React Higher-Order Component to handle promise cancelation when the component unmounts.
 
 React Promise Cancelable is a Higher-Order Component that wraps handlers into new functions that return a [`Cancelable`](https://github.com/joaogranado/promise-cancelable), which are safely canceled when the component unmounts.
 
 ## Status
 
-[![Travis](https://img.shields.io/travis/joaogranado/react-promise-cancelable.svg?style=flat-square)](https://travis-ci.org/joaogranado/react-promise-cancelable)
+[![Travis](https://img.shields.io/travis/joaogranado/react-promise-cancelable.svg)](https://travis-ci.org/joaogranado/react-promise-cancelable)
+[![Greenkeeper badge](https://badges.greenkeeper.io/joaogranado/react-promise-cancelable.svg)](https://greenkeeper.io/)
 
 ## Installation
 
