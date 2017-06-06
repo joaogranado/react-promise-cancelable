@@ -43,6 +43,7 @@
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-react": "^7.0.1",
     "jest": "^20.0.4",
+    "promise-cancelable": "^1.1.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
@@ -55,10 +56,10 @@
     "rollup-plugin-uglify": "^2.0.1"
   },
   "peerDependencies": {
+    "promise-cancelable": "^1.0.3",
     "react": "^0.14.0 || ^15.0.0 || ^16.0.0-0"
   },
   "dependencies": {
-    "is-plain-object": "^2.0.3",
-    "promise-cancelable": "^1.0.3"
+    "is-plain-object": "^2.0.3"
   }
 }

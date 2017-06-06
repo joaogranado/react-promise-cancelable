@@ -13,11 +13,11 @@ React Promise Cancelable is a Higher-Order Component that wraps handlers into ne
 ## Installation
 
 ```sh
-npm install react-promise-cancelable --save
+npm install react-promise-cancelable promise-cancelable --save
 ```
 
 ```sh
-yarn add react-promise-cancelable
+yarn add react-promise-cancelable promise-cancelable
 ```
 
 ## API

@@ -25,8 +25,9 @@ const config = {
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
     })
   ],
-  external: ['react'],
+  external: ['react', 'promise-cancelable'],
   globals: {
+    'promise-cancelable': 'Cancelable',
     react: 'React'
   }
 };
