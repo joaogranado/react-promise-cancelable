@@ -1,6 +1,6 @@
 {
   "name": "react-promise-cancelable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Higher-Order Component to handle promise cancelation when the component unmounts",
   "keywords": [
     "react",
