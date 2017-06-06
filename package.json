@@ -2,6 +2,14 @@
   "name": "react-promise-cancelable",
   "version": "1.0.1",
   "description": "React Higher-Order Component to handle promise cancelation when the component unmounts",
+  "keywords": [
+    "react",
+    "reactjs",
+    "promise",
+    "cancelable",
+    "cancel",
+    "hoc"
+  ],
   "browser": "dist/react-promise-cancelable.js",
   "main": "lib/index.js",
   "module": "es/index.js",
