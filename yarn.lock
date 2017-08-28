@@ -2977,9 +2977,9 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-promise-cancelable@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/promise-cancelable/-/promise-cancelable-1.1.0.tgz#e7557c9a5d4e04a908e9f533ce71a8f212ea89d4"
+promise-cancelable@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/promise-cancelable/-/promise-cancelable-2.1.0.tgz#f8fb23c707fa73c7c87a5d7e19cd936d0e6102a2"
 
 promise@^7.1.1:
   version "7.1.1"
